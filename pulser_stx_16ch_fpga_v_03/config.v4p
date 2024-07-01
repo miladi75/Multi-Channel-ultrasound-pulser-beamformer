@@ -1,0 +1,28 @@
+[libraries]
+    src/**/*.vhd = stxplib
+
+    # src/ip/**/*.vhd = main_pll
+    src/ip/**/*.vhd = pll_50
+
+
+
+[excludes]
+
+
+[ignores]
+
+
+[settings]
+
+    V4p.Settings.Completion.ShowEnums = True    
+    V4p.Settings.ParameterHelp.Instances = True
+    V4p.Settings.Formatting.Indentation.TabWidth = 8
+    V4p.Settings.Formatting.Indentation.UseTabs = @inherit
+    V4p.Settings.Basics.TopLevelEntities = "lemur_fpga"
+    V4p.Settings.Formatting.Indentation = @inherit
+    V4p.Settings.Formatting.Newlines = @default
+
+
+
+
+

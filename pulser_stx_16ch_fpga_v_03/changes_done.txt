@@ -1,0 +1,46 @@
+make.py changes to make this work:
+    # QUARTUS_ROOTDIR  = '/usr/local/intelFPGA/22.1/quartus'
+    # EMBEDDED_ROOTDIR = '/usr/local/intelFPGA/22.1/embedded'
+    QUARTUS_ROOTDIR  = '/home/seyedh/intelFPGA_lite/23.1std/quartus'
+    EMBEDDED_ROOTDIR = '/home/seyedh/intelFPGA_lite/23.1std/embedded'
+
+    
+    
+build_settings.tcl changes: 
+    '''
+    # set gitdirty [exec git diff --shortstat]
+    # if { $gitdirty ne "" } {
+    #   set dirty "*"
+    # }
+    
+    set dirty "*"
+    '''
+
+clean:
+    python3 make.py clean
+
+Build & launch Quartus(64 channels):
+    python3 make.py quartus img_type=app
+
+Build & launch Quartus(4 channels):
+    python3 make.py quartus img_type=app
+    
+
+
+The signals to control by UART interface
+
+signal ctrl_ping_rate=26:out:unsigned
+signal ctrl_pulse_length=23:out:unsigned
+signal ctrl_pwm_width=13:out:unsigned
+signal ctrl_custom_delay=20:out:unsigned
+signal ctrl_start_slope=12:out:unsigned
+signal ctrl_slope_rate=20:out:unsigned
+signal ctrl_trap_slope=32:out:unsigned
+
+chan_enable=16:out (LEDR)
+-w ctrl_ping_rate=2400000 ctrl_pulse_length=600000 ctrl_pwm_width=27 ctrl_custom_delay=0 ctrl_start_slope=1048 ctrl_slope_rate=305 ctrl_trap_slope=600000
+
+ctrl_ping_rate=26:out ctrl_pulse_length=23:out ctrl_pwm_width=13:out ctrl_custom_delay=20:out:unsigned ctrl_start_slope=12:out ctrl_slope_rate=20:out ctrl_trap_slope=32:out
+
+
+

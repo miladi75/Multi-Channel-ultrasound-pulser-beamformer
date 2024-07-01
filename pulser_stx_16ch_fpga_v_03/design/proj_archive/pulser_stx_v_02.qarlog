@@ -1,0 +1,64 @@
+Quartus Prime Archive log --	/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/proj_archive/pulser_stx_v_02.qarlog
+
+Archive:	/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/proj_archive/pulser_stx_v_02.qar
+Date:		Mon Apr  8 00:27:39 2024
+Quartus Prime		23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+	=========== Files Selected: ===========
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/build_settings.tcl
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/filelist.tcl
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/pulser_stx_16ch_fpga.qpf
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/pulser_stx_16ch_fpga.qsf
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/pulser_stx_16ch_fpga.sdc
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/pulser_stx_16ch_fpga.tcl
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/pulser_stx_16ch_fpga_assignment_defaults.qdf
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/stx2_tenrec_fpga_app.cof
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/stx2_tenrec_fpga_fac.cof
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/stx2_tenrec_fpga_full.cof
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/timequest_report_app.tcl
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/design/timequest_report_fac.tcl
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/apb_master_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/apbmux_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/clock_reset_gen_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/gen_sync_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/mult_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/rand_gen_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/reset_sync_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/scdpram_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/shift16_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/general/timer_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/main_pll.cmp
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/main_pll.qip
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/main_pll.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/main_pll/main_pll_0002.qip
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/main_pll/main_pll_0002.v
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/pll_50.cmp
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/pll_50.qip
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/pll_50.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/pll_50/pll_50_0002.qip
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/ip/pll_50/pll_50_0002.v
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/packages/amba_pkg.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/packages/common_pkg.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/packages/numeric_std_additions.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/packages/standard_additions.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/packages/std_logic_1164_additions.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/packages/top_defs.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/packages/types_pkg.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/pulser_stx_control_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/pulser_stx_top_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/spi_apb_bridge/spi_apb_bridge_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/spi_apb_bridge/spi_slave_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_control_top_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_delay_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_param_ctrl_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_param_ram_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_pulse_gen_top_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_pulse_tri_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_pwm_rtl.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_shared_mult_top_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_window_top_struct.vhd
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/pulser_stx_16ch_fpga_v_02/src/tx_ctrl/tx_window_trap_rtl.vhd
+	======= Total: 53 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

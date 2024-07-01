@@ -1,0 +1,23 @@
+IP Ports Diff Report for remote_update
+Mon Mar 25 20:23:46 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++---------------------------------------------------------------------------------+
+; IP Information                                                                  ;
++----------------------+----------------------------------------------------------+
+; IP Variation Name    ; remote_update                                            ;
+; Prior Version        ; 22.1                                                     ;
+; New Version          ; 23.1                                                     ;
+; New File             ; ../src/rupd/ip/remote_update/synthesis/remote_update.vhd ;
+; Has Port Differences ; No                                                       ;
++----------------------+----------------------------------------------------------+
+
+

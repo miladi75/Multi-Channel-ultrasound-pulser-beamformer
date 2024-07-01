@@ -1,0 +1,47 @@
+#.gitignore
+  
+# Dirs
+/testbench/questa_sim/work
+/testbench/questa_sim/libs
+/testbench/questa_sim/impl
+
+# Files
+*.mti
+*.wlf
+wlf*
+*_stacktrace.vstf
+*.mpf
+transcript
+
+
+##
+# !*.qpf
+# !*.qsf
+!*.qws
+!*.bdf
+!*.vhd
+!*.v
+!*.ptf
+!*.bsf
+!**/class.ptf
+!*.tbd
+!*.sof
+!*.sdc
+!*.v4p
+!*.do
+## tbd
+!*.tcl
+*.summary
+*.csv
+
+
+/design/build_app/
+/design/build_fac/
+/design/pulser_stx_16ch_fpga.qsf
+/design/db/
+/design/incremental_db/
+/design/greybox_tmp/
+/design/plot_data/
+/plots/Raw_data
+
+# Ignore make.py generated clean directories or files

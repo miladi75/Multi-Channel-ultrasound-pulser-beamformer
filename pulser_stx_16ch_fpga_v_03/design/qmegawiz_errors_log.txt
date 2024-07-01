@@ -1,0 +1,11 @@
+
+
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/Quartus_Pulser_FPGA_16ch_rev0/src/ip/main_pll.vhd
+
+Mar 25 09PM:03:52>: Megafunction PLL Intel FPGA IP v23.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/seyedh/Documents/VHDL/Thesis_FPGA_code/Quartus_Pulser_FPGA_16ch_rev0/src/ip/main_pll.vhd
+
+Mar 25 09PM:53:18>: Megafunction PLL Intel FPGA IP v23.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

@@ -1,0 +1,176 @@
+Archive Project report for pulser_stx_16ch_fpga
+Tue May 21 20:18:30 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue May 21 20:18:30 2024 ;
+; Revision Name          ; pulser_stx_16ch_fpga                  ;
+; Top-level Entity Name  ; pulser_stx_top                        ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive '/home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/design/pulser_stx_16ch_fpga.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'pulser_stx_16ch_fpga.archive.rpt'
+Info (23030): Evaluation of Tcl script /home/seyedh/intelFPGA_lite/23.1std/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 581 megabytes
+    Info: Processing ended: Tue May 21 20:18:30 2024
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                                          ;
++-------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                               ;
++-------------------------------------------------------------------------------------------------------------------------+
+; ../src/general/apb_master_rtl.vhd                                                                                       ;
+; ../src/general/apbmux_rtl.vhd                                                                                           ;
+; ../src/general/clock_reset_gen_struct.vhd                                                                               ;
+; ../src/general/gen_sync_rtl.vhd                                                                                         ;
+; ../src/general/mult_rtl.vhd                                                                                             ;
+; ../src/general/rand_gen_rtl.vhd                                                                                         ;
+; ../src/general/reset_sync_rtl.vhd                                                                                       ;
+; ../src/general/scdpram_rtl.vhd                                                                                          ;
+; ../src/general/shift16_rtl.vhd                                                                                          ;
+; ../src/general/timer_rtl.vhd                                                                                            ;
+; ../src/ip/main_pll.cmp                                                                                                  ;
+; ../src/ip/main_pll.qip                                                                                                  ;
+; ../src/ip/main_pll.vhd                                                                                                  ;
+; ../src/ip/main_pll/main_pll_0002.qip                                                                                    ;
+; ../src/ip/main_pll/main_pll_0002.v                                                                                      ;
+; ../src/ip/pll_50.cmp                                                                                                    ;
+; ../src/ip/pll_50.qip                                                                                                    ;
+; ../src/ip/pll_50.vhd                                                                                                    ;
+; ../src/ip/pll_50/pll_50_0002.qip                                                                                        ;
+; ../src/ip/pll_50/pll_50_0002.v                                                                                          ;
+; ../src/packages/amba_pkg.vhd                                                                                            ;
+; ../src/packages/common_pkg.vhd                                                                                          ;
+; ../src/packages/numeric_std_additions.vhd                                                                               ;
+; ../src/packages/standard_additions.vhd                                                                                  ;
+; ../src/packages/std_logic_1164_additions.vhd                                                                            ;
+; ../src/packages/top_defs.vhd                                                                                            ;
+; ../src/packages/types_pkg.vhd                                                                                           ;
+; ../src/pulser_stx_control_rtl.vhd                                                                                       ;
+; ../src/pulser_stx_top_struct.vhd                                                                                        ;
+; ../src/spi_apb_bridge/spi_apb_bridge_struct.vhd                                                                         ;
+; ../src/spi_apb_bridge/spi_slave_rtl.vhd                                                                                 ;
+; ../src/tx_ctrl/tx_control_top_struct.vhd                                                                                ;
+; ../src/tx_ctrl/tx_delay_rtl.vhd                                                                                         ;
+; ../src/tx_ctrl/tx_param_ctrl_rtl.vhd                                                                                    ;
+; ../src/tx_ctrl/tx_param_ram_struct.vhd                                                                                  ;
+; ../src/tx_ctrl/tx_pulse_gen_top_struct.vhd                                                                              ;
+; ../src/tx_ctrl/tx_pulse_tri_rtl.vhd                                                                                     ;
+; ../src/tx_ctrl/tx_pwm_rtl.vhd                                                                                           ;
+; ../src/tx_ctrl/tx_shared_mult_top_struct.vhd                                                                            ;
+; ../src/tx_ctrl/tx_window_top_struct.vhd                                                                                 ;
+; ../src/tx_ctrl/tx_window_trap_rtl.vhd                                                                                   ;
+; ../src/uart/uart_regs.vhd                                                                                               ;
+; ../src/uart/uart_regs_backend.vhd                                                                                       ;
+; ../src/uart/uart_rx.vhd                                                                                                 ;
+; ../src/uart/uart_tx.vhd                                                                                                 ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/apb_master_rtl.vhd               ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/apbmux_rtl.vhd                   ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/clock_reset_gen_struct.vhd       ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/gen_sync_rtl.vhd                 ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/mult_rtl.vhd                     ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/rand_gen_rtl.vhd                 ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/reset_sync_rtl.vhd               ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/scdpram_rtl.vhd                  ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/shift16_rtl.vhd                  ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/general/timer_rtl.vhd                    ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/main_pll.qip                          ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/main_pll.vhd                          ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/main_pll/main_pll_0002.qip            ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/main_pll/main_pll_0002.v              ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/pll_50.qip                            ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/pll_50.vhd                            ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/pll_50/pll_50_0002.qip                ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/ip/pll_50/pll_50_0002.v                  ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/packages/amba_pkg.vhd                    ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/packages/common_pkg.vhd                  ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/packages/numeric_std_additions.vhd       ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/packages/standard_additions.vhd          ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/packages/std_logic_1164_additions.vhd    ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/packages/top_defs.vhd                    ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/packages/types_pkg.vhd                   ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/pulser_stx_control_rtl.vhd               ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/pulser_stx_top_struct.vhd                ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/spi_apb_bridge/spi_apb_bridge_struct.vhd ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/spi_apb_bridge/spi_slave_rtl.vhd         ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_control_top_struct.vhd        ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_delay_rtl.vhd                 ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_param_ctrl_rtl.vhd            ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_param_ram_struct.vhd          ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_pulse_gen_top_struct.vhd      ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_pulse_tri_rtl.vhd             ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_pwm_rtl.vhd                   ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_shared_mult_top_struct.vhd    ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_window_top_struct.vhd         ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/tx_ctrl/tx_window_trap_rtl.vhd           ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/uart/uart_regs.vhd                       ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/uart/uart_regs_backend.vhd               ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/uart/uart_rx.vhd                         ;
+; /home/seyedh/Documents/Thesis_research/FPGA_code/pulser_stx_16ch_fpga_v_03/src/uart/uart_tx.vhd                         ;
+; build_settings.tcl                                                                                                      ;
+; filelist.tcl                                                                                                            ;
+; pulser_stx_16ch_fpga.qpf                                                                                                ;
+; pulser_stx_16ch_fpga.qsf                                                                                                ;
+; pulser_stx_16ch_fpga.sdc                                                                                                ;
+; pulser_stx_16ch_fpga.tcl                                                                                                ;
+; pulser_stx_16ch_fpga_assignment_defaults.qdf                                                                            ;
+; stx2_tenrec_fpga_app.cof                                                                                                ;
+; stx2_tenrec_fpga_fac.cof                                                                                                ;
+; stx2_tenrec_fpga_full.cof                                                                                               ;
+; timequest_report_app.tcl                                                                                                ;
+; timequest_report_fac.tcl                                                                                                ;
++-------------------------------------------------------------------------------------------------------------------------+
+
+
